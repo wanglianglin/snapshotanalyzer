@@ -19,5 +19,5 @@ pipenv install
 pipenv run python shotty/shotty.py <command> <subcommand> [--project=PROJECT]
 ```
 + *command* is instances, volumes, or snapshots
-+ *subcommand* is list, start, or stop_instances
++ *subcommand* is snapshot, list, start, or stop_instances
 + *project* is optional
