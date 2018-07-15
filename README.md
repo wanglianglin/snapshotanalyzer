@@ -16,5 +16,7 @@ First, install pipenv. Then:
 
 ```
 pipenv install
-pipenv run python shotty/shotty.py
+pipenv run python shotty/shotty.py <command> [--project=PROJET]
 ```
+*command* is list, start, or stop_instances
+*project* is optional
