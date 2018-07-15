@@ -21,3 +21,14 @@ pipenv run python shotty/shotty.py <command> <subcommand> [--project=PROJECT]
 + *command* is instances, volumes, or snapshots
 + *subcommand* is snapshot, list, start, or stop_instances
 + *project* is optional
+
+## Installing
+This tool can be installed by using whl released package.
+```
+pip3 install snapshotanalyzer-0.1-py3-none-any.whl
+```
+
+After that, run below. e.g.
+```
+shotty instances list
+```
